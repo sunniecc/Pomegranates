@@ -1,6 +1,7 @@
 App({
     onLaunch (options) {
       // Do something initial when launch.
+      console.log('hello cc')
     },
     onShow (options) {
       // Do something when show.
