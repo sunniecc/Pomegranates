@@ -9,6 +9,7 @@ App({
     },
     onHide () {
       // Do something when hide.
+      console.log('guai shu shu1')
     },
     onError (msg) {
       console.log(msg)
