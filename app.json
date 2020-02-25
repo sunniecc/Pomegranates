@@ -2,29 +2,27 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "aaa",
-    "bbbb"
+    "pages/userInfo/index"
   ],
   "window": {
-    "navigationBarTitleText": "Demo"
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "石榴屋",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "购买"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "购物车"
       },
       {
-        "pagePath": "aaa",
-        "text": "shide1"
-      },
-      {
-        "pagePath": "bbbb",
-        "text": "tttttt"
+        "pagePath": "pages/userInfo/index",
+        "text": "我的"
       }
     ]
   },

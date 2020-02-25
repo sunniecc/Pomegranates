@@ -1,4 +1,4 @@
-// bbbb.js
+// pages/userInfo/index.js
 Page({
 
   /**

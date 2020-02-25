@@ -1,0 +1,23 @@
+.home-top {
+  display: flex;
+  margin: 16rpx 0;
+}
+.home-top .search {
+  height: 100%;
+  background-color: #e8e8e8;
+  margin: 8rpx 16rpx;
+  padding: 8rpx;
+  flex-grow: 6;
+}
+.home-top .btn {
+  margin: 8rpx 16rpx;
+  padding: 2rpx;
+  flex-grow: 1;
+}
+.classify {
+  margin: 16rpx 0;
+  color: #bfbfbf;
+}
+.classify ul li {
+  margin: 32rpx 16rpx;
+}

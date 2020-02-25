@@ -1,1 +1,24 @@
-<div></div>
+<page-meta>
+    <navigation-bar title="石榴屋"/>
+</page-meta>
+<view class="home-top">
+    <input class = 'search' maxlength="10" placeholder='请输入搜索信息'/>
+    <button class="btn" size="mini">
+        按钮文本
+    </button>
+</view>
+<view class = 'classify'>
+    <ul>
+        <li>推荐</li>
+        <li>服饰</li>
+        <li>婚纱</li>
+        <li>配饰</li>
+        <li>照片的故事</li>
+    </ul>
+</view>
+<view class = 'recommend'>
+    这里是轮播特色推荐
+</view>
+<view class = 'commodityList'>
+    类别展示
+</view>
