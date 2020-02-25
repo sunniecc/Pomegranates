@@ -5,6 +5,7 @@ App({
     },
     onShow (options) {
       // Do something when show.
+      console.log('show my name sunnie')
     },
     onHide () {
       // Do something when hide.
