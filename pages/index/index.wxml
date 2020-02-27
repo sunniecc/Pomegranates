@@ -2,19 +2,27 @@
     <navigation-bar title="石榴屋"/>
 </page-meta>
 <view class="home-top">
-    <input class = 'search' maxlength="10" placeholder='请输入搜索信息'/>
-    <button class="btn" size="mini">
+    <!-- <input class = 'search' maxlength="10" placeholder='请输入搜索信息'/> -->
+    <van-search value="{{ value }}" placeholder="搜索单品" />
+    <!-- <button class="btn" size="mini">
         按钮文本
-    </button>
+    </button> -->
 </view>
 <view class = 'classify'>
-    <ul>
+    <!-- <ul>
         <li>推荐</li>
         <li>服饰</li>
         <li>婚纱</li>
         <li>配饰</li>
         <li>照片的故事</li>
-    </ul>
+    </ul> -->
+    <van-tabs border="{{ false }}" ellipsis="{{ false }}" line-width="0" class='van-tab'>
+        <van-tab title="推荐"></van-tab>
+        <van-tab title="服饰"></van-tab>
+        <van-tab title="婚纱"></van-tab>
+        <van-tab title="配饰"></van-tab>
+        <van-tab title="照片的故事"></van-tab>
+    </van-tabs>
 </view>
 <view class = 'recommend'>
     这里是轮播特色推荐
