@@ -25,7 +25,17 @@
     </van-tabs>
 </view>
 <view class = 'recommend'>
-    这里是轮播特色推荐
+    <swiper class='recomend-swiper' indicator-dots='true' autoplay='true' height="20%">
+        <swiper-item>
+        <image src='/image/banner1.jpg'></image>
+        </swiper-item>
+        <swiper-item>
+        <image src='/image/banner2.jpg'></image>
+        </swiper-item>
+        <swiper-item>
+        <image src='/image/banner3.jpg'></image>
+        </swiper-item>
+    </swiper>
 </view>
 <view class = 'commodityList'>
     类别展示

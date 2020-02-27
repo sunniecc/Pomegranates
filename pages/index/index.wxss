@@ -20,3 +20,9 @@ van-search {
 .classify {
   margin-top: -20rpx;
 }
+.recomend-swiper {
+  height: 250rpx;
+}
+.recomend-swiper image {
+  height: 100%;
+}
