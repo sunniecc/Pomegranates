@@ -34,5 +34,11 @@
   "navigateToMiniProgramAppIdList": [
     "wxe5f52902cf4de896"
   ],
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button",
+    "van-search": "@vant/weapp/search",
+    "van-tab": "@vant/weapp/tab",
+    "van-tabs": "@vant/weapp/tabs"
+  }
 }

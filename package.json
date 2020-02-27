@@ -1,0 +1,26 @@
+{
+  "name": "pomegranates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunniecc/Pomegranates.git"
+  },
+  "keywords": [
+    "cc"
+  ],
+  "author": "sunniecc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunniecc/Pomegranates/issues"
+  },
+  "homepage": "https://github.com/sunniecc/Pomegranates#readme"
+}

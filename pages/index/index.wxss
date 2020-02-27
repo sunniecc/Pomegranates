@@ -1,6 +1,6 @@
 .home-top {
   display: flex;
-  margin: 16rpx 0;
+  margin: 0;
 }
 .home-top .search {
   height: 100%;
@@ -14,10 +14,15 @@
   padding: 2rpx;
   flex-grow: 1;
 }
-.classify {
-  margin: 16rpx 0;
-  color: #bfbfbf;
+van-search {
+  width: 100%;
 }
-.classify ul li {
-  margin: 32rpx 16rpx;
+.classify {
+  margin-top: -20rpx;
+}
+.recomend-swiper {
+  height: 250rpx;
+}
+.recomend-swiper image {
+  height: 100%;
 }
