@@ -35,7 +35,6 @@ Component({
    */
   methods: {
     gotoCommodityDetail () {
-      console.log('gogo')
       wx.navigateTo({
         url: '../../pages/commodityInfo/index'
       })
