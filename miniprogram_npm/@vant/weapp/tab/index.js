@@ -56,6 +56,9 @@ component_1.VantComponent({
             if (this.parent) {
                 this.parent.updateTabs();
             }
+        },
+        onTap: function () {
+            console.log('tabs-----')
         }
     }
 });

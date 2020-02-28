@@ -3,6 +3,7 @@
 <view
   class="custom-class {{ utils.bem('tab__pane', { active, inactive: !active }) }}"
   style="{{ shouldShow ? '' : 'display: none;' }}"
+  bindtap="onTap"
 >
   <slot wx:if="{{ shouldRender }}" />
 </view>
