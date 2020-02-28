@@ -14,14 +14,20 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "购买"
+        "selectedIconPath": "image/home.png",
+        "iconPath": "image/home.png",
+        "text": "首页"
       },
       {
         "pagePath": "pages/logs/logs",
+        "selectedIconPath": "image/shopping.png",
+        "iconPath": "image/shopping.png",
         "text": "购物车"
       },
       {
         "pagePath": "pages/userInfo/index",
+        "selectedIconPath": "image/user.png",
+        "iconPath": "image/user.png",
         "text": "我的"
       }
     ]
@@ -36,9 +42,5 @@
   ],
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
-    "van-button": "@vant/weapp/button",
-    "van-search": "@vant/weapp/search",
-    "van-tab": "@vant/weapp/tab",
-    "van-tabs": "@vant/weapp/tabs"
   }
 }

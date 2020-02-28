@@ -1,7 +1,23 @@
 //index.js
 Page({
     data: {
-      text: "This is page data."
+      text: "This is page data.",
+      commodityList: [{
+        img: "../../../../image/banner1.jpg",
+        describe: "2020 宽松裙 透气 花纹 夏日新款",
+        price: "200",
+        salesNum: "600"
+      },{
+        img: "../../../../image/banner2.jpg",
+        describe: "2022 宽松裙 透气 花纹 夏日新款",
+        price: "200",
+        salesNum: "6002"
+      },{
+        img: "../../../../image/banner3.jpg",
+        describe: "2021 宽松裙 透气 花纹 夏日新款",
+        price: "200",
+        salesNum: "6003"
+      }]
     },
     onLoad: function(options) {
       // Do some initialize when page load.

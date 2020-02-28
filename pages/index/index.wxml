@@ -16,12 +16,14 @@
         <li>配饰</li>
         <li>照片的故事</li>
     </ul> -->
-    <van-tabs border="{{ false }}" ellipsis="{{ false }}" line-width="0" class='van-tab'>
+    <van-tabs   line-width="0" class='van-tab'>
         <van-tab title="推荐"></van-tab>
-        <van-tab title="服饰"></van-tab>
+        <van-tab title="女装"></van-tab>
+        <van-tab title="男装"></van-tab>
+        <van-tab title="童装"></van-tab>
         <van-tab title="婚纱"></van-tab>
         <van-tab title="配饰"></van-tab>
-        <van-tab title="照片的故事"></van-tab>
+        <van-tab ellipsis="{{false}}" title="照片的故事"></van-tab>
     </van-tabs>
 </view>
 <view class = 'recommend'>
@@ -38,5 +40,24 @@
     </swiper>
 </view>
 <view class = 'commodityList'>
-    类别展示
+    <van-grid column-num="2" gutter="1rpx">
+        <van-grid-item use-slot name="text" wx:for="{{commodityList}}">
+            <view class='commodityInfo'>
+                <!-- 图片 -->
+                <view class="img">
+                    <van-image fit="cover" width="200rpx" height="200rpx" src="{{item.img}}"></van-image>
+                </view>
+                <!-- 商品描述 -->
+                <view class='describe van-multi-ellipsis--l2'>
+                    {{item.describe}} 
+                </view>
+                <van-row>
+                    <!-- 价格 -->
+                    <van-col class='price'>¥{{item.price}}</van-col>
+                    <!-- 销量 -->
+                    <van-col class='salesNum'>{{item.salesNum}}付款</van-col>
+                </van-row>
+            </view>
+        </van-grid-item>
+    </van-grid>
 </view>
