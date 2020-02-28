@@ -1,0 +1,24 @@
+<!--components/cart-card/index.wxml-->
+<view class="cart-card-container">
+    <view class="cart-card-avatar">
+        <image src='../../image/{{ imgName }}.jpg' />
+    </view>
+    <view class="cart-card-info">
+        <view class="card-info-title">
+            <text>{{ title }}</text>
+        </view>
+        <view class="card-info-pattern">
+            <text>{{ pattern }}</text>
+        </view>
+        <view class="card-info-price">
+            <text>￥{{ price }}</text>
+        </view>
+        <view class="card-info-num">
+            <text>x{{ num }}</text>
+        </view>
+        <!-- <view class="card-price-num">
+            <view class="price">￥{{ price }}</view>
+            <view class="right">x{{ num }}</view>
+        </view> -->
+    </view>
+</view>

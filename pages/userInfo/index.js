@@ -5,7 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list: [
+      {
+        title: '我的订单',
+        iconName: 'orders-o'
+      },
+      {
+        title: '账户',
+        iconName: 'balance-o'
+      },
+      {
+        title: '卡券',
+        iconName: 'credit-pay'
+      },
+      {
+        title: '地址管理',
+        iconName: 'location-o'
+      },
+      {
+        title: '消息通知',
+        iconName: 'comment-o'
+      },
+      {
+        title: '客服中心',
+        iconName: 'service-o'
+      }
+    ]
   },
 
   /**

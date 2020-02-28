@@ -1,0 +1,11 @@
+<!--pages/cart/index.wxml-->
+<view class="cart-list-container">
+  <view wx:for="{{ commodity }}">
+    <c-cart-card imgName="{{ item.imgName }}" title="{{ item.title }}" pattern="{{ item.pattern }}" price="{{ item.price }}" num="{{ item.num }}"/>
+  </view>
+  <van-submit-bar
+    price="{{ 3050 }}"
+    button-text="去结算"
+    bind:submit="onSubmit"
+  />
+</view>

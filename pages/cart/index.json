@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "c-cart-card": "../../components/cart-card/index"
+  }
+}
