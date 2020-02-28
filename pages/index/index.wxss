@@ -24,6 +24,7 @@ van-search {
   height: 250rpx;
 }
 .recomend-swiper image {
+  width: 100%;
   height: 100%;
 }
 .commodityInfo {
