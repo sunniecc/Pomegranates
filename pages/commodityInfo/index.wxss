@@ -1,0 +1,130 @@
+.commodity-info-container {
+  padding-bottom: 120rpx;
+}
+.commodity-info-container .commodity-info-swiper .commodity-swiper image {
+  width: 100%;
+}
+.commodity-info-container .fix-bottom {
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.commodity-info-container .fix-bottom button {
+  border-radius: 0;
+  width: 40%;
+  height: 70rpx;
+  background-color: #00cccc;
+  color: white;
+  font-size: large;
+  font-size: bold;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.commodity-info-container .commodity-top-info {
+  padding: 30rpx 100rpx;
+  text-align: center;
+}
+.commodity-info-container .commodity-top-info .top-info-title {
+  font-weight: 100;
+}
+.commodity-info-container .commodity-top-info .top-info-price {
+  margin-top: 20rpx;
+  font-weight: bold;
+}
+.commodity-info-container .commodity-pettern-select {
+  padding: 20rpx 30rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: #e3e3e3 solid 0.01rpx;
+  background-color: white;
+}
+.commodity-info-container .commodity-pettern-select text {
+  margin-left: 10rpx;
+  color: gray;
+  font-size: small;
+}
+.commodity-info-container .commodity-pettern-select .right {
+  position: absolute;
+  right: 70rpx;
+  color: black;
+}
+.commodity-info-container .commodity-pettern-select .arrow {
+  position: absolute;
+  right: 30rpx;
+}
+.commodity-info-container .commodity-info {
+  font-size: x-small;
+  font-weight: 200;
+  padding: 20rpx 40rpx;
+}
+.commodity-info-container .commodity-info .commodity-info-item {
+  padding: 5rpx 0;
+}
+.commodity-info-container .commodity-info .commodity-info-item .right {
+  float: right;
+}
+.commodity-info-container .divider {
+  background-color: #eeeeee;
+  height: 15rpx;
+}
+.commodity-info-container .commodity-relative {
+  font-size: small;
+  font-weight: 200;
+  padding: 20rpx 40rpx;
+}
+.commodity-info-container .commodity-relative .right {
+  color: #00cccc;
+  float: right;
+}
+.commodity-info-container .commodity-relative .relative-grid {
+  margin-top: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.commodity-info-container .commodity-relative .relative-grid .relative-grid-item {
+  padding: 0 20rpx;
+  flex: 1;
+  text-align: center;
+}
+.commodity-info-container .commodity-relative .relative-grid .relative-grid-item image {
+  width: 110rpx;
+  height: 110rpx;
+}
+.commodity-info-container .commodity-relative .relative-grid .relative-grid-item .info-title {
+  font-size: xx-small;
+}
+.commodity-info-container .commodity-relative .relative-grid .relative-grid-item .info-price {
+  font-weight: bold;
+}
+.commodity-info-container .commodity-detail .title {
+  font-size: large;
+  font-weight: bold;
+}
+.commodity-info-container .commodity-detail .content {
+  font-size: small;
+  font-weight: 200;
+}
+.commodity-info-container .commodity-detail image {
+  margin-top: 20rpx;
+  width: 100%;
+}
+.commodity-info-container .commodity-detail .commodity-story {
+  padding: 30rpx;
+}
+.commodity-info-container .commodity-detail .commodity-display .title {
+  padding: 30rpx;
+}
+.commodity-info-container .commodity-detail .commodity-show .title {
+  padding: 30rpx;
+}
+.commodity-info-container .commodity-detail .commodity-pettern .title {
+  padding: 30rpx;
+}

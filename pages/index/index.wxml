@@ -41,7 +41,7 @@
 </view>
 <view class = 'commodityList'>
     <van-grid column-num="2" gutter="1rpx">
-        <van-grid-item use-slot name="text" wx:for="{{commodityList}}">
+        <van-grid-item use-slot name="text" wx:for="{{commodityList}}" bindtap="gotoCommodityDetail">
             <view class='commodityInfo'>
                 <!-- 图片 -->
                 <view class="img">

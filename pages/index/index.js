@@ -62,6 +62,11 @@ Page({
         // this is setData callback
       })
     },
+    gotoCommodityDetail () {
+      wx.navigateTo({
+        url: '../../pages/commodityInfo/index'
+      })
+    },
     customData: {
       hi: 'MINA'
     }

@@ -1,0 +1,140 @@
+.commodity-info-container {
+    padding-bottom: 120rpx;
+    .commodity-info-swiper {
+        .commodity-swiper image{
+            width: 100%;
+        }
+    }
+    .fix-bottom {
+        z-index: 100;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 120rpx;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            border-radius: 0;
+            width: 40%;
+            height: 70rpx;
+            background-color: #00cccc;
+            color: white;
+            font-size: large;
+            font-size: bold;
+            vertical-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .commodity-top-info {
+        padding: 30rpx 100rpx;
+        text-align: center;
+        .top-info-title {
+            font-weight: 100;
+        }
+        .top-info-price {
+            margin-top: 20rpx;
+            font-weight: bold;
+        }
+    }
+    .commodity-pettern-select {
+        padding: 20rpx 30rpx;
+        display: flex;
+        align-items: center;
+        border-bottom: #e3e3e3 solid 0.01rpx;
+        background-color: white;
+        text {
+            margin-left: 10rpx;
+            color: gray;
+            font-size: small;
+        }
+        .right {
+            position: absolute;
+            right: 70rpx;
+            color: black;
+        }
+        .arrow {
+            position: absolute;
+            right: 30rpx;
+        }
+    }
+    .commodity-info {
+        font-size: x-small;
+        font-weight: 200;
+        padding: 20rpx 40rpx;
+        .commodity-info-item {
+            padding: 5rpx 0;
+            .right {
+                float: right
+            }
+        }
+    }
+    .divider {
+        background-color: #eeeeee;
+        height: 15rpx;
+    }
+    .commodity-relative {
+        font-size: small;
+        font-weight: 200;
+        padding: 20rpx 40rpx;
+        .right {
+            color: #00cccc;
+            float: right;
+        }
+        .relative-grid {
+            margin-top: 40rpx;
+            display: flex;
+            align-items: center;
+            .relative-grid-item {
+                padding: 0 20rpx;
+                flex: 1;
+                text-align: center;
+                image {
+                    width: 110rpx;
+                    height: 110rpx;
+                }
+                .info-title {
+                    font-size: xx-small;
+                }
+                .info-price {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .commodity-detail {
+        .title {
+            font-size: large;
+            font-weight: bold;
+        }
+        .content {
+            font-size: small;
+            font-weight: 200;
+        }
+        image {
+            margin-top: 20rpx;
+            width: 100%;
+        }
+        .commodity-story {
+            padding: 30rpx;
+        }
+        .commodity-display {
+            .title {
+                padding: 30rpx;
+            }
+        }
+        .commodity-show {
+            .title {
+                padding: 30rpx;
+            }
+        }
+        .commodity-pettern{
+            .title {
+                padding: 30rpx;
+            }
+        }
+    }
+}
