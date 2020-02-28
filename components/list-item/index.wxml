@@ -1,0 +1,6 @@
+<!--components/list-item/index.wxml-->
+<view class="list-item-container">
+  <van-icon name="{{ iconName }}" />
+  <text>{{ title }}</text>
+  <van-icon name="arrow" class="arrow" />
+</view>

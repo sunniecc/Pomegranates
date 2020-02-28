@@ -1,2 +1,20 @@
 <!--pages/userInfo/index.wxml-->
-<text>pages/userInfo/index.wxml</text>
+<view class="mine-avatar">
+  <van-image
+    round
+    width="80rpx"
+    height="80rpx"
+    src="https://img.yzcdn.cn/vant/cat.jpeg"
+  />
+  <text class="mine-avatar-text">Errorccccc</text>
+</view>
+<view class="mine-divider"></view>
+<view class="mine-list">
+  <view wx:for="{{ list }}">
+    <c-list-item title="{{ item.title }}" iconName="{{ item.iconName }}"/>
+  </view>
+</view>
+<view class="mine-divider"></view>
+<view class="mine-logout">
+  <text>退出登录</text>
+</view>
