@@ -62,6 +62,12 @@ Page({
         // this is setData callback
       })
     },
+    gotoCommodityDetail () {
+      console.log('gogo')
+      wx.navigateTo({
+        url: '../../pages/commodityInfo/index'
+      })
+    },
     customData: {
       hi: 'MINA'
     }

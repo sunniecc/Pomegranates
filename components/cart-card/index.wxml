@@ -1,5 +1,5 @@
 <!--components/cart-card/index.wxml-->
-<view class="cart-card-container">
+<view class="cart-card-container" bindtap="gotoCommodityDetail">
     <view class="cart-card-avatar">
         <image src='../../image/{{ imgName }}.jpg' />
     </view>

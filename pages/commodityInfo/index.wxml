@@ -1,0 +1,110 @@
+<!--pages/commodityInfo/index.wxml-->
+<view class="commodity-info-container">
+    <view class="commodity-info-swiper">
+        <swiper class='commodity-swiper' indicator-dots='true' autoplay='true' height="20%">
+            <swiper-item>
+                <image src='/image/banner1.jpg'></image>
+            </swiper-item>
+            <swiper-item>
+                <image src='/image/banner2.jpg'></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="fix-bottom">
+        <button>立即购买</button>
+        <button>加入购物车</button>
+    </view>
+    <view class="commodity-top-info">
+        <view class="top-info-title">{{ commodityTitle }}</view>
+        <view class="top-info-price">￥{{ commodityPrice }}</view>
+    </view>
+    <view class="commodity-pettern-select">
+        <text>选择尺码</text>
+        <text class="right">请选择尺码</text><van-icon name="arrow" class="arrow" />
+    </view>
+    <view class="commodity-info">
+        <view class="commodity-info-item">
+            <text>配色</text>
+            <text class="right">紫色</text>
+        </view>
+        <view class="commodity-info-item">
+            <text>货号</text>
+            <text class="right">S0899-12</text>
+        </view>
+        <view class="commodity-info-item">
+            <text>官方价格</text>
+            <text class="right">￥299 仅供参考</text>
+        </view>
+        <view class="commodity-info-item">
+            <text>发售日期</text>
+            <text class="right">2020.03.07</text>
+        </view>
+    </view>
+    <view class="divider"></view>
+    <view class="commodity-relative">
+        <text>相关商品</text>
+        <text class="right">全部</text>
+        <view class="relative-grid">
+            <view class="relative-grid-item">
+                <image src="/image/banner1.jpg" />
+                <view class="relative-grid-info">
+                    <view class="info-title">SENCE LA 卫衣夹克外套 蓝色</view>
+                    <view class="info-price">￥399</view>
+                </view>
+            </view>
+            <view class="relative-grid-item">
+                <image src="/image/banner2.jpg" />
+                <view class="relative-grid-info">
+                    <view class="info-title">SENCE LA 卫衣夹克外套 粉色</view>
+                    <view class="info-price">￥399</view>
+                </view>
+            </view>
+            <view class="relative-grid-item">
+                <image src="/image/banner3.jpg" />
+                <view class="relative-grid-info">
+                    <view class="info-title">SENCE LA 卫衣夹克外套 绿色</view>
+                    <view class="info-price">￥399</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="divider"></view>
+    <view class="commodity-detail">
+        <!-- 品牌故事 -->
+        <view class="commodity-story">
+            <view class="title">品牌故事</view>
+            <text class="content">
+                Beaster创立于2014年，作为新一代年轻人的先锋街头品牌，致力于成为自主设计研发，生产，销售为一体的当代先锋街头品牌的潮流象征。品牌主理人对服装设计的理念是人类 与 野兽，所以它们性别模糊，需要穿着者赋予它灵魂。
+            </text>
+        </view>
+        <!-- 单品展示 -->
+        <view class="commodity-display">
+            <view class="title">单品展示</view>
+            <image src="/image/banner1.jpg" />
+        </view>
+        <!-- 穿搭效果 -->
+        <view class="commodity-show">
+            <view class="title">穿搭效果</view>
+            <image src="/image/banner2.jpg" />
+            <image src="/image/banner3.jpg" />
+        </view>
+        <!-- 细节呈现 -->
+        <view class="commodity-pettern">
+            <view class="title">细节呈现</view>
+            <van-grid column-num="2" gutter="1rpx" square="{{ true }}">
+                <van-grid-item use-slot name="text">
+                    <image src="/image/banner1.jpg" />
+                </van-grid-item>
+                <van-grid-item use-slot name="text">
+                    <image src="/image/banner2.jpg" />
+                </van-grid-item>
+                <van-grid-item use-slot name="text">
+                    <image src="/image/banner1.jpg" />
+                </van-grid-item>
+                <van-grid-item use-slot name="text">
+                    <image src="/image/banner2.jpg" />
+                </van-grid-item>
+            </van-grid>
+        </view>
+    </view>
+</view>
