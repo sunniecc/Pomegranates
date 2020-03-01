@@ -1,0 +1,16 @@
+.commodityInfo {
+  color: #323233;
+  font-size: 28rpx;
+}
+.commodityInfo .img {
+  display: flex;
+  justify-content: center;
+}
+.commodityInfo .van-row {
+  margin-top: 16rpx;
+}
+.commodityInfo .salesNum {
+  float: right;
+  font-size: 24rpx;
+  color: #646566;
+}

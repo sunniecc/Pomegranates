@@ -20,134 +20,134 @@ Page({
         sign: "story"
       }],
       banners: [{
-        src: '/image/banner1.jpg'
+        src: 'http://q6g5jrj9e.bkt.clouddn.com/dress1.jpeg'
       },{
-        src: '/image/banner2.jpg'
+        src: 'http://q6g5jrj9e.bkt.clouddn.com/dress2.jpeg'
       },{
-        src: '/image/banner3.jpg'
+        src: 'http://q6g5jrj9e.bkt.clouddn.com/dress3.jpeg'
       }],
       commodityType: {
         recommend: [{
-          img: "../../../../image/dress/dress1.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress1.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         },{
-          img: "../../../../image/dress/dress1.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress1.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/dress/dress1.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress1.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         }],
         dress: [{
-          img: "../../../../image/dress/dress4.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress4.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         },{
-          img: "../../../../image/dress/dress5.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress5.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/dress/dress6.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress6.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         }],
         weddingDress: [{
-          img: "../../../../image/weddingDress/wedding1.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding1.jpeg",
           describe: "2020 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "600"
         },{
-          img: "../../../../image/weddingDress/wedding2.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding2.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/weddingDress/wedding3.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding3.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         },{
-          img: "../../../../image/weddingDress/wedding4.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding4.jpeg",
           describe: "2020 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "600"
         },{
-          img: "../../../../image/weddingDress/wedding5.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding5.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/weddingDress/wedding6.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding6.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         },{
-          img: "../../../../image/weddingDress/wedding7.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding7.jpeg",
           describe: "2020 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "600"
         },{
-          img: "../../../../image/weddingDress/wedding8.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding8.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/weddingDress/wedding9.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding9.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         },{
-          img: "../../../../image/weddingDress/wedding10.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding10.jpeg",
           describe: "2020 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "600"
         },{
-          img: "../../../../image/weddingDress/wedding11.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding11.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/weddingDress/wedding12.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding12.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         },{
-          img: "../../../../image/weddingDress/wedding13.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding13.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/weddingDress/wedding14.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/wedding14.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         }],
         ACC: [{
-          img: "../../../../image/dress/dress13.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress13.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         }],
         story: [{
-          img: "../../../../image/dress/dress10.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress10.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
         },{
-          img: "../../../../image/dress/dress11.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress11.jpeg",
           describe: "2022 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6002"
         },{
-          img: "../../../../image/dress/dress12.jpeg",
+          img: "http://q6g5jrj9e.bkt.clouddn.com/dress12.jpeg",
           describe: "2021 宽松裙 透气 花纹 夏日新款",
           price: "200",
           salesNum: "6003"
@@ -198,16 +198,10 @@ Page({
         // this is setData callback
       })
     },
-    gotoCommodityDetail () {
-      wx.navigateTo({
-        url: '../../pages/commodityInfo/index'
-      })
-    },
     customData: {
       hi: 'MINA'
     },
     toOtherPage(info) {
-      console.log('info===', info.detail.index)
       const sign = this.data.tabInfo[info.detail.index].sign
       this.setData({commodityList:this.data.commodityType[sign]})
       

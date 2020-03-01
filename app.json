@@ -51,6 +51,9 @@
     "van-icon": "@vant/weapp/icon",
     "van-divider": "@vant/weapp/divider",
     "van-image": "@vant/weapp/image",
-    "van-submit-bar": "@vant/weapp/submit-bar"
+    "van-submit-bar": "@vant/weapp/submit-bar",
+    "van-sticky": "@vant/weapp/sticky",
+    "van-grid": "@vant/weapp/grid",
+    "van-grid-item": "@vant/weapp/grid-item"
   }
 }

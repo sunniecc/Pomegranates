@@ -18,25 +18,5 @@
         </swiper-item>
     </swiper>
 </view>
-<view class = 'commodityList'>
-    <van-grid column-num="2" gutter="1rpx">
-        <van-grid-item use-slot name="text" wx:for="{{commodityList}}" bindtap="gotoCommodityDetail">
-            <view class='commodityInfo'>
-                <!-- 图片 -->
-                <view class="img">
-                    <van-image fit="cover" width="300rpx" height="300rpx" src="{{item.img}}"></van-image>
-                </view>
-                <!-- 商品描述 -->
-                <view class='describe van-multi-ellipsis--l2'>
-                    {{item.describe}} 
-                </view>
-                <van-row>
-                    <!-- 价格 -->
-                    <van-col class='price'>¥{{item.price}}</van-col>
-                    <!-- 销量 -->
-                    <van-col class='salesNum'>{{item.salesNum}}付款</van-col>
-                </van-row>
-            </view>
-        </van-grid-item>
-    </van-grid>
-</view>
+<list-commodity commodityList="{{commodityList}}"/>
+
