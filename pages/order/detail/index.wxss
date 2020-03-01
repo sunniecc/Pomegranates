@@ -1,0 +1,104 @@
+.order-detail-container .order-status {
+  padding: 30rpx 0 70rpx 50rpx;
+  width: 100%;
+  background-color: #000033;
+}
+.order-detail-container .order-status text {
+  font-size: bold;
+  color: white;
+}
+.order-detail-container .order-transport {
+  padding: 30rpx;
+  font-weight: 200;
+  font-size: small;
+  border-bottom: solid 1px #eeeeee;
+}
+.order-detail-container .order-transport .transport-title {
+  display: flex;
+}
+.order-detail-container .order-transport .transport-title .logistics-status {
+  margin-left: 20rpx;
+}
+.order-detail-container .order-transport .transport-title .text-right {
+  position: absolute;
+  right: 60rpx;
+}
+.order-detail-container .order-transport .transport-title .right {
+  margin-top: 7rpx;
+  position: absolute;
+  right: 20rpx;
+}
+.order-detail-container .transport-date {
+  margin-top: 10rpx;
+}
+.order-detail-container .transport-date .date {
+  margin-left: 50rpx;
+  font-size: xx-small;
+  color: gray;
+}
+.order-detail-container .receiver-info {
+  padding: 30rpx;
+  font-size: small;
+  border-bottom: solid 1px #eeeeee;
+}
+.order-detail-container .receiver-info .receiver-title {
+  display: flex;
+  font-weight: bold;
+}
+.order-detail-container .receiver-info .receiver-title .text-right {
+  position: absolute;
+  right: 60rpx;
+}
+.order-detail-container .receiver-info .receiver-name {
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+.order-detail-container .receiver-info .receiver-address {
+  margin-left: 50rpx;
+  margin-top: 10rpx;
+  font-size: xx-small;
+  font-weight: 200;
+  color: gray;
+}
+.order-detail-container .divider {
+  height: 15rpx;
+  background-color: #eeeeee;
+}
+.order-detail-container .commodity-info {
+  padding: 30rpx;
+  border-bottom: solid 1px #eeeeee;
+}
+.order-detail-container .discount {
+  padding: 10rpx 30rpx 30rpx;
+  border-bottom: solid 1px #eeeeee;
+}
+.order-detail-container .text-item {
+  margin-top: 20rpx;
+  font-size: small;
+  font-weight: 200;
+  width: 100%;
+}
+.order-detail-container .text-item .right {
+  float: right;
+}
+.order-detail-container .total {
+  padding: 10rpx 30rpx 30rpx;
+  border-bottom: solid 1px #eeeeee;
+}
+.order-detail-container .total .right {
+  font-weight: bold;
+  font-size: large;
+}
+.order-detail-container .order-no {
+  padding: 10rpx 30rpx 30rpx;
+}
+.order-detail-container .order-no .text-item {
+  font-size: xx-small;
+  font-weight: 100;
+  width: 100%;
+  margin-top: 20rpx;
+  color: gray;
+}
+.order-detail-container .order-no .text-item .right {
+  float: right;
+}

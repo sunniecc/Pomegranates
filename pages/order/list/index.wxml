@@ -1,0 +1,9 @@
+<!--pages/order/list/index.wxml-->
+<view class="order-list-container">
+    <view wx:for="{{ 3 }}">
+        <view class="order-list-item" bindtap="gotoOrderDetail">
+            <c-order-list-item />
+            <view class="divider"></view>
+        </view>
+    </view>
+</view>

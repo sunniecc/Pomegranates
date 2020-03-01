@@ -1,0 +1,29 @@
+.commodity-detail-container {
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+}
+.commodity-detail-container .commodity-detail-avatar {
+  border: solid 1px #eeeeee;
+  width: 150rpx;
+  height: 150rpx;
+}
+.commodity-detail-container .commodity-detail-avatar image {
+  width: 150rpx;
+  height: 150rpx;
+}
+.commodity-detail-container .commodity-detail-info {
+  font-size: small;
+  margin-left: 30rpx;
+}
+.commodity-detail-container .commodity-detail-info .detail-info-title {
+  font-weight: 200;
+}
+.commodity-detail-container .commodity-detail-info .detail-info-other {
+  margin-top: 20rpx;
+}
+.commodity-detail-container .commodity-detail-info .right {
+  font-size: normal;
+  font-weight: bold;
+  float: right;
+}

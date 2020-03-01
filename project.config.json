@@ -60,8 +60,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/commodityInfo/index",
-					"pathName": "pages/commodityInfo/index",
+					"name": "pages/order/detail/index",
+					"pathName": "pages/order/detail/index",
 					"query": "",
 					"scene": null
 				}

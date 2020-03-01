@@ -1,0 +1,67 @@
+<!--pages/order/detail/index.wxml-->
+<view class="order-detail-container">
+    <view class="order-status">
+        <text>交易成功</text>
+    </view>
+    <view class="order-transport">
+        <view class="transport-title">
+            <van-icon name="logistics" />
+            <text class="logistics-status">买家已收货</text>
+            <text class="text-right">查看物流</text>
+            <van-icon class="right" name="arrow" />
+        </view>
+        <view class="transport-date">
+            <text class="date">2019-08-18 16:15:50</text>
+        </view>
+    </view>
+    <view class="receiver-info">
+        <view class="receiver-title">
+            <van-icon name="location-o" />
+            <text class="receiver-name">收货人: Errorccccc</text>
+            <text class="text-right">138****5721</text>
+        </view>
+        <view class="receiver-address">
+            <text class="address">广东省深圳市南山区深投控创智天地大厦</text>
+        </view>
+    </view>
+    <view class="divider"></view>
+    <view class="commodity-info">
+        <c-commodity-detail></c-commodity-detail>
+    </view>
+    <view class="discount">
+        <view class="text-item">
+            <text>顺丰速运</text>
+            <text class="right">￥27</text>
+        </view>
+        <view class="text-item">
+            <text>限时95折</text>
+            <text class="right">-￥159</text>
+        </view>
+        <view class="text-item">
+            <text>包邮券</text>
+            <text class="right">-￥27</text>
+        </view>
+    </view>
+    <view class="total">
+        <view class="text-item">
+            <text>合计支付</text>
+            <text class="right">￥2110</text>
+        </view>
+    </view>
+    <view class="divider"></view>
+    <view class="order-no">
+        <view class="text-item">
+            <text>订单编号</text>
+            <text class="right">89759389348934</text>
+        </view>
+        <view class="text-item">
+            <text>创建时间</text>
+            <text class="right">2019-08-07 23:59:48</text>
+        </view>
+        <view class="text-item">
+            <text>交易编号</text>
+            <text class="right">32131232132132132</text>
+        </view>
+    </view>
+    <view class="divider"></view>
+</view>

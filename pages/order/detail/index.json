@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "c-commodity-detail": "../components/order-commodity-detail/index"
+  }
+}

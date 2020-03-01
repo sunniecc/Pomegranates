@@ -11,7 +11,7 @@
 <view class="mine-divider"></view>
 <view class="mine-list">
   <view wx:for="{{ list }}">
-    <c-list-item title="{{ item.title }}" iconName="{{ item.iconName }}"/>
+    <c-list-item title="{{ item.title }}" iconName="{{ item.iconName }}" data-type="{{ item.type }}" bindtap="gotoPage"/>
   </view>
 </view>
 <view class="mine-divider"></view>

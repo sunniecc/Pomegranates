@@ -3,10 +3,10 @@
     <view class="commodity-info-swiper">
         <swiper class='commodity-swiper' indicator-dots='true' autoplay='true' height="20%">
             <swiper-item>
-                <image src='/image/banner1.jpg'></image>
+                <image src='http://q6g5jrj9e.bkt.clouddn.com/dress1.jpeg'></image>
             </swiper-item>
             <swiper-item>
-                <image src='/image/banner2.jpg'></image>
+                <image src='http://q6g5jrj9e.bkt.clouddn.com/dress2.jpeg'></image>
             </swiper-item>
         </swiper>
     </view>
@@ -46,21 +46,21 @@
         <text class="right">全部</text>
         <view class="relative-grid">
             <view class="relative-grid-item">
-                <image src="/image/banner1.jpg" />
+                <image src="http://q6g5jrj9e.bkt.clouddn.com/dress7.jpeg" />
                 <view class="relative-grid-info">
                     <view class="info-title">SENCE LA 卫衣夹克外套 蓝色</view>
                     <view class="info-price">￥399</view>
                 </view>
             </view>
             <view class="relative-grid-item">
-                <image src="/image/banner2.jpg" />
+                <image src="http://q6g5jrj9e.bkt.clouddn.com/dress8.jpeg" />
                 <view class="relative-grid-info">
                     <view class="info-title">SENCE LA 卫衣夹克外套 粉色</view>
                     <view class="info-price">￥399</view>
                 </view>
             </view>
             <view class="relative-grid-item">
-                <image src="/image/banner3.jpg" />
+                <image src="http://q6g5jrj9e.bkt.clouddn.com/dress9.jpeg" />
                 <view class="relative-grid-info">
                     <view class="info-title">SENCE LA 卫衣夹克外套 绿色</view>
                     <view class="info-price">￥399</view>
@@ -80,29 +80,29 @@
         <!-- 单品展示 -->
         <view class="commodity-display">
             <view class="title">单品展示</view>
-            <image src="/image/banner1.jpg" />
+            <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding1.jpeg" />
         </view>
         <!-- 穿搭效果 -->
         <view class="commodity-show">
             <view class="title">穿搭效果</view>
-            <image src="/image/banner2.jpg" />
-            <image src="/image/banner3.jpg" />
+            <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding2.jpeg" />
+            <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding3.jpeg" />
         </view>
         <!-- 细节呈现 -->
         <view class="commodity-pettern">
             <view class="title">细节呈现</view>
             <van-grid column-num="2" gutter="1rpx" square="{{ true }}">
                 <van-grid-item use-slot name="text">
-                    <image src="/image/banner1.jpg" />
+                    <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding4.jpeg" />
                 </van-grid-item>
                 <van-grid-item use-slot name="text">
-                    <image src="/image/banner2.jpg" />
+                    <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding5.jpeg" />
                 </van-grid-item>
                 <van-grid-item use-slot name="text">
-                    <image src="/image/banner1.jpg" />
+                    <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding6.jpeg" />
                 </van-grid-item>
                 <van-grid-item use-slot name="text">
-                    <image src="/image/banner2.jpg" />
+                    <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding7.jpeg" />
                 </van-grid-item>
             </van-grid>
         </view>
