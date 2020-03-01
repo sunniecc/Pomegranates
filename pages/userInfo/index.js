@@ -8,29 +8,38 @@ Page({
     list: [
       {
         title: '我的订单',
-        iconName: 'orders-o'
+        iconName: 'orders-o',
+        type: 'order'
       },
       {
         title: '账户',
-        iconName: 'balance-o'
+        iconName: 'balance-o',
+        type: 'account'
       },
       {
         title: '卡券',
-        iconName: 'credit-pay'
+        iconName: 'credit-pay',
+        type: 'credit'
       },
       {
         title: '地址管理',
-        iconName: 'location-o'
+        iconName: 'location-o',
+        type: 'address'
       },
       {
         title: '消息通知',
-        iconName: 'comment-o'
+        iconName: 'comment-o',
+        type: 'message'
       },
       {
         title: '客服中心',
-        iconName: 'service-o'
+        iconName: 'service-o',
+        type: 'service'
       }
-    ]
+    ],
+    redirectUrl: {
+      order: '../../pages/order/list/index'
+    }
   },
 
   /**
@@ -87,5 +96,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  gotoPage (e) {
+    console.log(e.target.dataset.type)
+    const { type } = e.target.dataset
+    wx.navigateTo({
+      url: this.data.redirectUrl[type],
+    })
   }
 })

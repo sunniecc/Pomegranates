@@ -1,15 +1,10 @@
-// components/list-item/index.js
+// pages/order/components/order-list-item/index.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    title: {
-      type: String
-    },
-    iconName: {
-      type: String
-    }
+
   },
 
   /**
@@ -23,5 +18,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
+
   }
 })

@@ -1,0 +1,14 @@
+<!--pages/order/components/order-commodity-detail/index.wxml-->
+<view class="commodity-detail-container">
+    <view class="commodity-detail-avatar">
+        <image src="http://q6g5jrj9e.bkt.clouddn.com/wedding10.jpeg" />
+    </view>
+    <view class="commodity-detail-info">
+        <view class="detail-info-title">adidas Yeezy Boost 700v2 Tephra 火山棕灰色 老爹鞋FU7914</view>
+        <view class="detail-info-other">
+            <text>XXL码 </text>
+            <text class="num">数量x1</text>
+            <text class="right">￥2249</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/order/components/order-list-item/index.wxml-->
+<view class="order-list-item-container">
+    <view class="tag">
+        <text>交易成功</text>
+    </view>
+    <view class="item">
+        <c-commodity-detail />
+    </view>
+</view>
