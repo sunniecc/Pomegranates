@@ -1,0 +1,24 @@
+<view>
+    <!-- 搜索框 -->
+    <van-sticky>
+        <van-search placeholder="请输入搜索关键字" value="{{searchValue}}"/>
+    </van-sticky>
+    <!-- 首次进入展示、取消展示 热门搜索、搜索历史 -->
+    <view class="searchLabel" wx:if="{{!commodityList.length}}">
+        <text>热门搜索</text>
+        <view class="hotSearch">
+            <text wx:for="{{hotSearch}}" data-lable="{{item}}" bindtap="selectLable">{{item}}</text>
+        </view>
+        <text>历史搜索</text>
+        <view class="historySearch">
+            <text wx:for="{{historySearch}}" data-lable="{{item}}" bindtap="selectLable">{{item}}</text>
+        </view>
+    </view>
+    <view wx:else>
+        <!-- 搜索信息的过滤拦 -->
+        <view></view>
+        <!-- 搜索信息的展示 --> 
+        <list-commodity commodityList="{{commodityList}}"></list-commodity>
+    </view>
+    
+</view>

@@ -1,0 +1,11 @@
+.searchLabel {
+  padding: 20rpx 24rpx;
+}
+.searchLabel .hotSearch text,
+.searchLabel .historySearch text {
+  display: inline-block;
+  padding: 12rpx;
+  margin: 12rpx;
+  background: #f0f0f092;
+  font-size: 34rpx;
+}

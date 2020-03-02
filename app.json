@@ -6,7 +6,8 @@
     "pages/commodityInfo/index",
     "pages/login/login",
     "pages/order/list/index",
-    "pages/order/detail/index"
+    "pages/order/detail/index",
+    "pages/commodityQuery/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -56,6 +57,8 @@
     "van-submit-bar": "@vant/weapp/submit-bar",
     "van-sticky": "@vant/weapp/sticky",
     "van-grid": "@vant/weapp/grid",
-    "van-grid-item": "@vant/weapp/grid-item"
+    "van-grid-item": "@vant/weapp/grid-item",
+    "van-row": "@vant/weapp/row",
+    "van-col": "@vant/weapp/col"
   }
 }

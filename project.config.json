@@ -64,6 +64,12 @@
 					"pathName": "pages/order/detail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "查询页面",
+					"pathName": "pages/commodityQuery/index",
+					"scene": null
 				}
 			]
 		}

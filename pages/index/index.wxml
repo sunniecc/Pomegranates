@@ -3,7 +3,7 @@
 </page-meta>
 <van-sticky>
     <view class="home-top">
-        <van-search value="{{ value }}" placeholder="搜索单品" />
+        <van-search value="{{ value }}" placeholder="搜索单品" bind:focus="toQueryPage"/>
     </view>
     <view class = 'classify'>
         <van-tabs   line-width="0" class='van-tab' bind:change="toOtherPage">

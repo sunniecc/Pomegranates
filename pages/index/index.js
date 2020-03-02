@@ -204,6 +204,10 @@ Page({
     toOtherPage(info) {
       const sign = this.data.tabInfo[info.detail.index].sign
       this.setData({commodityList:this.data.commodityType[sign]})
-      
+    },
+    toQueryPage() {
+      wx.navigateTo({
+        url: "../../pages/commodityQuery/index"
+      })
     }
   })
