@@ -1,0 +1,21 @@
+<!--pages/address/index.wxml-->
+<!--pages/address/index.wxml-->
+<view class="address-list-container">
+    <view wx:for="{{ addressList }}">
+        <view class="address-info">
+            <c-address-info receiverName="{{ item.receiverName }}"  receiverPhone="{{ item.receiverPhone }}" 
+            receiverAddress="{{item.receiverAddress}}" showIcon="{{item.showIcon}}" />
+        </view>
+        <view class="address-edit">
+            <van-icon wx:if="{{item.isDefault}}" name="checked" color="#00eeee" />
+            <van-icon wx:else name="checked" color="gray" />
+            <text class="default">默认地址</text>
+            <text class="edit" bindtap="gotoAddressEdit">编辑</text>
+            <text class="delete">删除</text>
+        </view>
+        <c-divider></c-divider>
+    </view>
+    <view class="fix-bottom">
+        <button bindtap="gotoAddressEdit">添加新地址</button>
+    </view>
+</view>

@@ -1,0 +1,24 @@
+page {
+  background-color: #eeeeee;
+}
+.address-operate {
+  padding: 20rpx 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 120rpx;
+}
+.address-operate button {
+  width: 45%;
+  border-radius: 0;
+  font-size: small;
+  font-weight: 400;
+}
+.address-operate button.delete {
+  background-color: white;
+  color: #cc6666;
+}
+.address-operate button.save {
+  background-color: #00cccc;
+  color: white;
+}

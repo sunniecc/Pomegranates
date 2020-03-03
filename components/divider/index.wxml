@@ -1,0 +1,2 @@
+<!--components/divider/index.wxml-->
+<view class="divider-container"></view>

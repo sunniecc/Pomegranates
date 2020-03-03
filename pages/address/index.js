@@ -1,18 +1,35 @@
-// pages/commodityInfo/index.js
+// pages/address/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    commodityTitle: 'SENCE LA 撞色抽绳大口袋羊羔绒开衫卫衣夹克外套 乳白色',
-    commodityPrice: 299,
-    commodityPettern: [
+    addressList: [
       {
-
+        receiverName: 'Errorccccc',
+        receiverPhone: '138****5721',
+        receiverAddress: '深圳软件产业基地',
+        showIcon: false,
+        isDefault: true
+      },
+      {
+        receiverName: 'shiliu',
+        receiverPhone: '138****3322',
+        receiverAddress: '创智天地大厦深投控',
+        showIcon: false,
+        isDefault: false
+      },
+      {
+        receiverName: 'sunnie',
+        receiverPhone: '181****3322',
+        receiverAddress: '布达拉宫啦啦啦',
+        showIcon: false,
+        isDefault: false
       }
     ]
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -68,9 +85,9 @@ Page({
   onShareAppMessage: function () {
 
   },
-  bug () {
+  gotoAddressEdit () {
     wx.navigateTo({
-      url: '../order/buy/index',
+      url: '../address/edit/index',
     })
   }
 })

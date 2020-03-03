@@ -1,0 +1,4 @@
+.divider-container {
+  height: 15rpx;
+  background-color: #eeeeee;
+}

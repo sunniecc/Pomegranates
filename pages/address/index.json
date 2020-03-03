@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "c-address-info": "../../components/address-info/index",
+    "c-divider": "../../components/divider/index"
+  }
+}

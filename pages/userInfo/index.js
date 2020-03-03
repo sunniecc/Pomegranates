@@ -38,7 +38,8 @@ Page({
       }
     ],
     redirectUrl: {
-      order: '../../pages/order/list/index'
+      order: '../../pages/order/list/index',
+      address: '../address/index'
     }
   },
 

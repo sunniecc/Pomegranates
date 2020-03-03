@@ -1,0 +1,48 @@
+page {
+    background-color: #eeeeee;
+}
+.address-list-container {
+    background-color: white;
+    .address-info {
+        padding: 30rpx 20rpx;
+        border-bottom: solid 1px #eeeeee;
+    }
+    .address-edit {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 20rpx 30rpx;
+        font-size: small;
+        .default {
+            margin-left: 20rpx;
+        }
+        .edit {
+            color: #00eeee;
+            position: absolute;
+            right: 120rpx;
+        }
+        .delete {
+            color: #cc6666;
+            position: absolute;
+            right: 30rpx;
+        }
+    }
+    .fix-bottom {
+        z-index: 100;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        bottom: 0;
+        height: 120rpx;
+        display: flex;
+        align-items: center;
+        padding: 15rpx 0 25rpx;
+        button {
+            width: 90%;
+            border-radius: 5rpx;
+            background-color: #00cccc;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
