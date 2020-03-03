@@ -9,3 +9,10 @@
   background: #f0f0f092;
   font-size: 34rpx;
 }
+.salesNum,
+.price {
+  position: relative;
+}
+.options {
+  padding: 0 24rpx 20rpx;
+}

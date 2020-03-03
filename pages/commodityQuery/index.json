@@ -1,6 +1,8 @@
 {
     "component": true,
     "usingComponents": {
-        "list-commodity": "../../components/list-commodity"
+        "list-commodity": "../../components/list-commodity",
+        "van-dropdown-menu": "@vant/weapp/dropdown-menu",
+        "van-dropdown-item": "@vant/weapp/dropdown-item"
     }
 }
