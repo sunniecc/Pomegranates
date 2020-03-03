@@ -1,0 +1,29 @@
+.address-info-container .address-info-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 60rpx;
+  position: relative;
+}
+.address-info-container .address-info-title .receiver-name {
+  margin-left: 50rpx;
+}
+.address-info-container .address-info-title .receiver-name-icon {
+  margin-left: 20rpx;
+}
+.address-info-container .address-info-title .text-right {
+  position: absolute;
+  right: 60rpx;
+}
+.address-info-container .address-info-title .icon-right {
+  position: absolute;
+  right: 0;
+}
+.address-info-container .receiver-address,
+.address-info-container .receiver-address-icon {
+  margin-top: 10rpx;
+  margin-left: 50rpx;
+  color: gray;
+  font-size: small;
+  font-weight: 200;
+}

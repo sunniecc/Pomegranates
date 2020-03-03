@@ -1,4 +1,4 @@
-// pages/logs/logs.js
+// pages/order/buy/index.js
 Page({
 
   /**
@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  gotoAddressList () {
+    wx.navigateTo({
+      url: '../../address/index',
+    })
   }
 })

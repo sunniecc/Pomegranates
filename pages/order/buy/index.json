@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "c-address-info": "../../../components/address-info/index",
+    "c-divider": "../../../components/divider/index",
+    "c-order-commodity-detail": "../components/order-commodity-detail/index"
+  }
+}

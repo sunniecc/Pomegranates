@@ -1,0 +1,33 @@
+<!--pages/order/bug/index.wxml-->
+<view class="order-bug-container">
+  <view class="bug-address" bindtap="gotoAddressList">
+    <c-address-info></c-address-info>
+  </view>
+  <c-divider></c-divider>
+  <view class="bug-commodity-detail">
+    <c-order-commodity-detail />
+  </view>
+  <view class="freight-price">
+    <text>顺丰速运</text>
+    <text class="right">￥18</text>
+  </view>
+  <view class="total-price">
+    <text>合计支付</text>
+    <text class="right">￥2267</text>
+  </view>
+  <c-divider></c-divider>
+  <view class="bug-tips">
+    <view>1、特别提醒：建议您提前与快递员沟通将包裹寄存在如快递柜、门口、物业门卫等地方，减少人与人直接接触、出门记得戴口罩、勤洗手。</view>
+    <view class="down">2、若买家未在36小时内发货导致交易失败，您将获得28元现金及总计人民币170元的满减优惠券补偿</view>
+    <view class="down">3、每间交易商品均由平台针对物品实物进行鉴别，鉴于商品价格波动性，同时每个款式每个尺码的商品出售时仅有一件等情况，故不支持退还差价</view>
+    <view class="down">4、温馨提示：商品价格由市场供需决定，可能存在波动，请理性消费。</view>
+  </view>
+  <view class="bug-agree">
+    <text>我已同意</text><text class="tip">买前必看</text>
+  </view>
+  <c-divider></c-divider>
+  <view class="bug-fix-bottom">
+    <view class="bottom-price">实付款：￥2267</view>
+    <view class="button"><button>提交订单</button></view>
+  </view>
+</view>

@@ -1,18 +1,13 @@
-// pages/commodityInfo/index.js
+// pages/address/edit/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    commodityTitle: 'SENCE LA 撞色抽绳大口袋羊羔绒开衫卫衣夹克外套 乳白色',
-    commodityPrice: 299,
-    commodityPettern: [
-      {
 
-      }
-    ]
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -67,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  bug () {
-    wx.navigateTo({
-      url: '../order/buy/index',
-    })
   }
 })

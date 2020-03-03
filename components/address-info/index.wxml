@@ -1,0 +1,12 @@
+<!--components/address-info/index.wxml-->
+<view class="address-info-container">  
+  <view class="address-info-title">
+      <van-icon wx:if="{{ showIcon }}" name="location-o" />
+      <text class="{{showIcon === true ? 'receiver-name-icon' : 'receiver-name'}}">收货人: {{ receiverName }}</text>
+      <text class="text-right">{{ receiverPhone }}</text>
+      <van-icon wx:if="{{ showIcon }}" name="arrow" class="icon-right"/>
+  </view>
+  <view class="{{showIcon === true ? 'receiver-address-icon' : 'receiver-address'}}">
+      <text class="address">{{ receiverAddress }}</text>
+  </view>
+</view>
