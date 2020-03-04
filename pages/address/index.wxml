@@ -7,7 +7,7 @@
             receiverAddress="{{item.receiverAddress}}" showIcon="{{item.showIcon}}" />
         </view>
         <view class="address-edit">
-            <van-icon wx:if="{{item.isDefault}}" name="checked" color="#00eeee" />
+            <van-icon wx:if="{{item.isDefault}}" name="checked" color="#01c2c3" />
             <van-icon wx:else name="checked" color="gray" />
             <text class="default">默认地址</text>
             <text class="edit" bindtap="gotoAddressEdit">编辑</text>

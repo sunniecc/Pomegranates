@@ -1,0 +1,41 @@
+page {
+  background-color: #eeeeee;
+}
+.message-container {
+  background-color: white;
+  padding-left: 30rpx;
+}
+.message-container .message-item {
+  padding: 20rpx 30rpx 20rpx 0;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #eeeeee;
+}
+.message-container .message-item .img {
+  width: 100rpx;
+  height: 100rpx;
+  border: 1px solid #eeeeee;
+}
+.message-container .message-item .img image {
+  width: 100%;
+  height: 100%;
+}
+.message-container .message-item .info {
+  margin-top: -10rpx;
+  margin-left: 20rpx;
+}
+.message-container .message-item .info .status {
+  font-size: small;
+}
+.message-container .message-item .info .commodity-name {
+  margin-top: 10rpx;
+  color: gray;
+  font-weight: bold;
+  font-size: x-small;
+}
+.message-container .message-item .info .date {
+  margin-top: 10rpx;
+  color: gray;
+  font-weight: 300;
+  font-size: x-small;
+}

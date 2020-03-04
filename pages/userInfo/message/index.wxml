@@ -1,0 +1,33 @@
+<!--pages/userInfo/message/index.wxml-->
+<view class="message-container">
+    <view class="message-item">
+        <view class="img">
+            <image src="http://q6g5jrj9e.bkt.clouddn.com/dress1.jpeg" />
+        </view>
+        <view class="info">
+            <view class="status">交易成功</view>
+            <view class="commodity-name">adidas Yeezy Boost 700V2 火山</view>
+            <view class="date">2019.09.29</view>
+        </view>
+    </view>
+    <view class="message-item">
+        <view class="img">
+            <image src="http://q6g5jrj9e.bkt.clouddn.com/dress13.jpeg" />
+        </view>
+        <view class="info">
+            <view class="status">交易成功</view>
+            <view class="commodity-name">adidas Yeezy Boost 700V2 火山</view>
+            <view class="date">2019.09.29</view>
+        </view>
+    </view>
+    <view class="message-item">
+        <view class="img">
+            <image src="http://q6g5jrj9e.bkt.clouddn.com/dress16.jpeg" />
+        </view>
+        <view class="info">
+            <view class="status">交易成功</view>
+            <view class="commodity-name">adidas Yeezy Boost 700V2 火山</view>
+            <view class="date">2019.09.29</view>
+        </view>
+    </view>
+</view>

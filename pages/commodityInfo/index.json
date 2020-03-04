@@ -2,6 +2,7 @@
   "usingComponents": {
     "c-list-item": "../../components/list-item",
     "van-grid": "@vant/weapp/grid",
-    "van-grid-item": "@vant/weapp/grid-item"
+    "van-grid-item": "@vant/weapp/grid-item",
+    "c-size-selector": "../commodityInfo/components/size-selector/index"
   }
 }

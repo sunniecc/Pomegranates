@@ -1,0 +1,112 @@
+.size-selector-container {
+  background-color: #eeeeee;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  top: 30%;
+  z-index: 200;
+}
+.size-selector-container .commodity-info {
+  position: absolute;
+  padding: 30rpx 20rpx;
+  width: 100%;
+  top: 0;
+  height: 200rpx;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.size-selector-container .commodity-info .img {
+  width: 150rpx;
+  height: 150rpx;
+  border: solid 1px #eeeeee;
+}
+.size-selector-container .commodity-info .img image {
+  width: 100%;
+  height: 100%;
+}
+.size-selector-container .commodity-info .info {
+  margin-left: 20rpx;
+}
+.size-selector-container .commodity-info .info .price {
+  font-weight: bold;
+}
+.size-selector-container .commodity-info .info .content {
+  margin-top: 20rpx;
+  color: gray;
+  font-size: small;
+  font-weight: 300;
+}
+.size-selector-container .commodity-info .icon {
+  position: absolute;
+  right: 60rpx;
+  top: 50rpx;
+}
+.size-selector-container .size {
+  position: absolute;
+  width: 100%;
+  top: 260rpx;
+  bottom: 150rpx;
+}
+.size-selector-container .size .cell {
+  width: 25vw;
+  height: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.size-selector-container .size .cell .inner-cell {
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.size-selector-container .size .cell .inner-cell .inner-size {
+  font-weight: bold;
+}
+.size-selector-container .size .cell .inner-cell .price {
+  margin-top: 10rpx;
+  font-size: small;
+  font-weight: 300;
+}
+.size-selector-container .size .cell .inner-cell-selected {
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid black;
+}
+.size-selector-container .size .cell .inner-cell-selected .inner-size {
+  font-weight: bold;
+}
+.size-selector-container .size .cell .inner-cell-selected .price {
+  margin-top: 10rpx;
+  font-size: small;
+  font-weight: 300;
+}
+.size-selector-container .bug {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 150rpx;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.size-selector-container .bug button {
+  width: 90%;
+  border-radius: 0;
+  background-color: #01c2c3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

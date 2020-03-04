@@ -19,7 +19,7 @@ page {
   margin-left: 20rpx;
 }
 .address-list-container .address-edit .edit {
-  color: #00eeee;
+  color: #01c2c3;
   position: absolute;
   right: 120rpx;
 }

@@ -1,0 +1,11 @@
+<!--pages/userInfo/account/index.wxml-->
+<view class="account-container">
+    <view class="total">
+        <text class="price">￥0</text>
+        <text class="content">账户余额仅用于提现</text>
+    </view>
+    <c-divider></c-divider>
+    <view class="detail" bindtap="gotoDetail">
+        <c-list-item title="明细" iconName="label-o" ></c-list-item>
+    </view>
+</view>

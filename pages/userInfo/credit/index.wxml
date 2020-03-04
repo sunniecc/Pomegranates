@@ -1,0 +1,9 @@
+<!--pages/userInfo/credit/index.wxml-->
+<view class="credit-container">
+    <van-tabs active="{{ 0 }}" color="#01c2c3" bind:change="onChange">
+        <van-tab title="未使用（0）"></van-tab>
+        <van-tab title="已使用（0）"></van-tab>
+        <van-tab title="已过期（0）"></van-tab>
+    </van-tabs>
+    <view class="credit-content">这里没有内容</view>
+</view>
