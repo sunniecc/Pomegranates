@@ -1,0 +1,10 @@
+page {
+  background-color: #eeeeee;
+}
+.credit-content {
+  text-align: center;
+  padding: 120rpx 0 0;
+  color: gray;
+  font-size: small;
+  font-weight: 300;
+}

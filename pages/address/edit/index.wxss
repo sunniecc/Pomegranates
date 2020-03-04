@@ -22,3 +22,9 @@ page {
   background-color: #00cccc;
   color: white;
 }
+.area-select {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 20;
+}

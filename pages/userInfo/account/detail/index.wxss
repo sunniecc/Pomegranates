@@ -1,0 +1,12 @@
+page {
+  background-color: #eeeeee;
+}
+.account-detail-container {
+  text-align: center;
+}
+.account-detail-container .content {
+  margin-top: 80rpx;
+  color: gray;
+  font-size: small;
+  font-weight: 300;
+}

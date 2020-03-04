@@ -1,0 +1,24 @@
+<!--pages/commodityInfo/components/size-selector/index.wxml-->
+<view class="size-selector-container">
+    <view class="commodity-info">
+        <view class="img">
+            <image src="http://q6g5jrj9e.bkt.clouddn.com/dress4.jpeg" />
+        </view>
+        <view class="info">
+            <view class="price">￥999</view>
+            <view class="content">{{ selectedSize }}码</view>
+        </view>
+        <view class="icon" bindtap="close"><van-icon name="close" /></view>
+    </view>
+    <view class="size">
+        <view class="cell" wx:for="{{ sizeList }}" data-index="{{ index }}"  bindtap="chooseSize">
+            <view class="{{ item.selected ? 'inner-cell-selected' : 'inner-cell' }}">
+                <view class="inner-size">{{ item.size }}</view>
+                <view class="price">￥{{ item.price }}</view>
+            </view>
+        </view>
+    </view>
+    <view class="bug">
+        <button bindtap="buy">￥2399立即购买</button>
+    </view>
+</view>

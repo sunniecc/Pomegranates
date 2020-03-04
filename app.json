@@ -10,7 +10,11 @@
     "pages/commodityQuery/index",
     "pages/order/buy/index",
     "pages/address/index",
-    "pages/address/edit/index"
+    "pages/address/edit/index",
+    "pages/userInfo/account/index",
+    "pages/userInfo/account/detail/index",
+    "pages/userInfo/credit/index",
+    "pages/userInfo/message/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -63,6 +67,7 @@
     "van-grid-item": "@vant/weapp/grid-item",
     "van-row": "@vant/weapp/row",
     "van-col": "@vant/weapp/col",
-    "van-field": "@vant/weapp/field"
+    "van-field": "@vant/weapp/field",
+    "van-overlay": "@vant/weapp/overlay"
   }
 }

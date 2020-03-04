@@ -39,7 +39,10 @@ Page({
     ],
     redirectUrl: {
       order: '../../pages/order/list/index',
-      address: '../address/index'
+      address: '../address/index',
+      account: './account/index',
+      credit: './credit/index',
+      message: './message/index'
     }
   },
 

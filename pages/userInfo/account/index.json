@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "c-list-item": "../../components/list-item/index",
+    "c-divider": "../../components/divider/index"
+  }
+}

@@ -60,8 +60,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/address/index",
-					"pathName": "pages/address/index",
+					"name": "pages/commodityInfo/index",
+					"pathName": "pages/commodityInfo/index",
 					"query": "",
 					"scene": null
 				},
@@ -69,6 +69,7 @@
 					"id": -1,
 					"name": "查询页面",
 					"pathName": "pages/commodityQuery/index",
+					"query": "",
 					"scene": null
 				}
 			]
