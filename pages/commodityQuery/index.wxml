@@ -1,40 +1,45 @@
 <view>
     <!-- 搜索框 -->
     <van-sticky>
-        <van-search placeholder="请输入搜索关键字" value="{{searchValue}}"/>
+        <van-search placeholder="请输入搜索关键字" value="{{searchValue}}" bind:change="searchInput"/>
     </van-sticky>
     <!-- 首次进入展示、取消展示 热门搜索、搜索历史 -->
-    <view class="searchLabel" wx:if="{{!commodityList.length}}">
+    <view class="searchLabel" wx:if="{{!searchValue}}">
         <text>热门搜索</text>
         <view class="hotSearch">
-            <text wx:for="{{hotSearch}}" data-lable="{{item}}" bindtap="selectLable">{{item}}</text>
+            <text wx:key="index" wx:for="{{hotSearch}}" data-lable="{{item}}" bindtap="selectLable">{{item}}</text>
         </view>
         <text>历史搜索</text>
         <view class="historySearch">
-            <text wx:for="{{historySearch}}" data-lable="{{item}}" bindtap="selectLable">{{item}}</text>
+            <text wx:key="index" wx:for="{{historySearch}}" data-lable="{{item}}" bindtap="selectLable">{{item}}</text>
         </view>
     </view>
     <view wx:else>
-        <!-- 搜索信息的过滤拦 -->
-        <view class="options">
-            <van-row>
-                <van-col span="6">综合排序</van-col>
-                <van-col span="6">新品</van-col>
-                <van-col span="6" custom-class="salesNum">
-                    销量
-                    <van-icon name="arrow-up" custom-style="position:absolute;top:-3rpx;margin-left:8rpx"></van-icon>
-                    <van-icon name="arrow-down" custom-style="position:absolute;bottom:-3rpx;margin-left:8rpx"></van-icon>
-                </van-col>
-                <van-col span="6" custom-class="price">
-                    价格
-                    <van-icon name="arrow-up" custom-style="position:absolute;top:-3rpx;margin-left:8rpx"></van-icon>
-                    <van-icon name="arrow-down" custom-style="position:absolute;bottom:-3rpx;margin-left:8rpx"></van-icon>
-                </van-col>
-            </van-row>
+        <!-- 输入框有搜索时 -->
+        <view wx:if="{{showType}}" class="searchType">
+            <view wx:key="index" data-name="{{item}}" wx:for="{{searchList}}" bindtap="goodsType">{{item}}</view>
+        </view>
+        <view wx:else>
+            <!-- 搜索信息的过滤拦 -->
+            <view class="filterTabs">
+                <van-row>
+                    <van-col span="6" bindtap="filterTab">综合排序</van-col>
+                    <van-col span="6" bindtap="filterTab">新品</van-col>
+                    <van-col span="6" custom-class="salesNum">
+                        销量
+                        <van-icon id="add" bind:click="sales" name="arrow-up" custom-style="position:absolute;top:-3rpx;margin-left:8rpx"></van-icon>
+                        <van-icon id="down" bind:click="sales" name="arrow-down" custom-style="position:absolute;bottom:-3rpx;margin-left:8rpx"></van-icon>
+                    </van-col>
+                    <van-col span="6" custom-class="price">
+                        价格
+                        <van-icon id="add" bind:click="prices" name="arrow-up" custom-style="position:absolute;top:-3rpx;margin-left:8rpx"></van-icon>
+                        <van-icon id="down" bind:click="prices" name="arrow-down" custom-style="position:absolute;bottom:-3rpx;margin-left:8rpx"></van-icon>
+                    </van-col>
+                </van-row>
+            </view>
+            <!-- 搜索信息的展示 --> 
+            <list-commodity commodityList="{{commodityList}}"></list-commodity>
         </view>
         
-        <!-- 搜索信息的展示 --> 
-        <list-commodity commodityList="{{commodityList}}"></list-commodity>
     </view>
-    
 </view>

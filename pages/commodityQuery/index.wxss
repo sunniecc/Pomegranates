@@ -13,6 +13,13 @@
 .price {
   position: relative;
 }
-.options {
+.filterTabs {
   padding: 0 24rpx 20rpx;
+}
+.searchType {
+  padding-left: 24rpx;
+}
+.searchType view {
+  border-bottom: 1rpx solid #f0f0f0;
+  padding: 24rpx 0;
 }

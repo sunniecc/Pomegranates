@@ -7,13 +7,13 @@
     </view>
     <view class = 'classify'>
         <van-tabs   line-width="0" class='van-tab' bind:change="toOtherPage">
-            <van-tab title="{{item.name}}" wx:for="{{tabInfo}}" ></van-tab>
+            <van-tab title="{{item.name}}" wx:key="{{index}}" wx:for="{{tabInfo}}" ></van-tab>
         </van-tabs>
     </view>
 </van-sticky>
 <view class = 'recommend'>
     <swiper class='recomend-swiper' indicator-dots='true' autoplay='true' height="20%">
-        <swiper-item wx:for="{{banners}}">
+        <swiper-item wx:key="{{index}}" wx:for="{{banners}}">
             <image src='{{item.src}}'></image>
         </swiper-item>
     </swiper>

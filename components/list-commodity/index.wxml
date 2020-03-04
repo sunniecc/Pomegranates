@@ -1,6 +1,6 @@
 <view class = 'commodityList'>
     <van-grid column-num="2">
-        <van-grid-item use-slot name="text" wx:for="{{commodityList}}" bindtap="gotoCommodityDetail">
+        <van-grid-item use-slot name="text" wx:key="index" wx:for="{{commodityList}}" bindtap="gotoCommodityDetail">
             <view class='commodityInfo'>
                 <!-- 图片 -->
                 <view class="img">
@@ -8,7 +8,7 @@
                 </view>
                 <!-- 商品描述 -->
                 <view class='describe van-multi-ellipsis--l2'>
-                    {{item.describe}} 
+                    {{item.describe}}
                 </view>
                 <van-row>
                     <!-- 价格 -->
