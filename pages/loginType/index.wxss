@@ -1,0 +1,10 @@
+.toLogin {
+  padding: 100rpx 80rpx;
+}
+.toLogin van-image {
+  display: flex;
+  justify-content: center;
+}
+.toLogin button {
+  margin: 40rpx 0;
+}

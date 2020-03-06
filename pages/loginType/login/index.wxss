@@ -1,0 +1,8 @@
+.login {
+  padding: 100rpx 80rpx;
+}
+.login .van-cell {
+  margin: 32rpx 0;
+  padding-right: 0;
+  padding-left: 0;
+}

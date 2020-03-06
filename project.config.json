@@ -71,6 +71,20 @@
 					"pathName": "pages/commodityQuery/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/userInfo/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "登录",
+					"pathName": "pages/loginType/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

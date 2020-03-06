@@ -1,6 +1,5 @@
 // pages/userInfo/index.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -42,7 +41,16 @@ Page({
       address: '../address/index',
       account: './account/index',
       credit: './credit/index',
-      message: './message/index'
+      address: '../address/index'
+    },
+    dialog: {
+      title: '标题',
+      message: '确定退出登录?',
+      show: false
+    },
+    userInfo: {
+      userName:'Errorccccc',
+      userImg: 'https://img.yzcdn.cn/vant/cat.jpeg'
     }
   },
 
@@ -106,6 +114,30 @@ Page({
     const { type } = e.target.dataset
     wx.navigateTo({
       url: this.data.redirectUrl[type],
+    })
+  },
+  // 退出登陆弹框
+  loginOutDialog() {
+    this.setData({
+      dialog: {
+        ...this.data.dialog,
+        show: true
+      }
+    })
+  },
+  // 退出登录
+  loginOut() {
+    this.setData({
+      userInfo:{
+        userName: '登录/注册',
+        userImg: ''
+      }
+    })
+  },
+  // 去登录
+  login() {
+    wx.navigateTo({
+      url:'../../pages/loginType/index'
     })
   }
 })

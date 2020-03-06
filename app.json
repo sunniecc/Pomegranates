@@ -4,7 +4,8 @@
     "pages/cart/index",
     "pages/userInfo/index",
     "pages/commodityInfo/index",
-    "pages/login/login",
+    "pages/loginType/index",
+    "pages/loginType/login/index",
     "pages/order/list/index",
     "pages/order/detail/index",
     "pages/commodityQuery/index",
@@ -68,6 +69,7 @@
     "van-row": "@vant/weapp/row",
     "van-col": "@vant/weapp/col",
     "van-field": "@vant/weapp/field",
-    "van-overlay": "@vant/weapp/overlay"
+    "van-overlay": "@vant/weapp/overlay",
+    "van-dialog": "@vant/weapp/dialog"
   }
 }

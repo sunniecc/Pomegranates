@@ -1,0 +1,10 @@
+<view class="toLogin">
+    <van-image
+        round
+        width="80rpx"
+        height="80rpx"
+        src="https://img.yzcdn.cn/vant/cat.jpeg"
+    />
+    <button type="primary" bindtap="wxLogin">微信登录</button>
+    <button bindtap="phoneLogin">手机号登录/注册</button>
+</view>

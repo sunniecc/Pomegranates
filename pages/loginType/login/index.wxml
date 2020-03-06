@@ -1,0 +1,22 @@
+<view class="login">
+    <van-image
+    width="80rpx"
+    height="80rpx"
+    src="https://img.yzcdn.cn/vant/cat.jpeg"
+    ></van-image>
+    <van-field 
+        label="+86"
+        placeholder="输入手机号"
+        title-width= "120rpx"
+        clearable
+    ></van-field>
+    <van-field 
+        label="验证码"
+        placeholder="输入验证码"
+        use-button-slot
+        title-width= "120rpx"
+    >
+    <van-button slot="button" size="mini" type="primary">发送验证码</van-button>
+    </van-field>
+    <button custom-class="login-btn" type="primary">登录</button>
+</view>

@@ -1,20 +1,28 @@
 <!--pages/userInfo/index.wxml-->
-<view class="mine-avatar">
+<view class="mine-avatar" bindtap="login">
   <van-image
     round
     width="80rpx"
     height="80rpx"
-    src="https://img.yzcdn.cn/vant/cat.jpeg"
+    src="{{userInfo.userImg}}"
   />
-  <text class="mine-avatar-text">Errorccccc</text>
+  <text class="mine-avatar-text">{{userInfo.userName}}</text>
 </view>
 <view class="mine-divider"></view>
 <view class="mine-list">
-  <view wx:for="{{ list }}">
+  <view wx:key="index" wx:for="{{ list }}">
     <c-list-item title="{{ item.title }}" iconName="{{ item.iconName }}" data-type="{{ item.type }}" bindtap="gotoPage"/>
   </view>
 </view>
 <view class="mine-divider"></view>
-<view class="mine-logout">
-  <text>退出登录</text>
+<van-dialog 
+  title="{{dialog.title}}" 
+  show="{{dialog.show}}" 
+  message="{{dialog.message}}"
+  show-cancel-button="ture"
+  bind:confirm="loginOut"
+>
+</van-dialog>
+<view class="mine-logout" bindtap="loginOutDialog">
+  退出登录
 </view>
