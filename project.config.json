@@ -60,8 +60,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/commodityInfo/index",
-					"pathName": "pages/commodityInfo/index",
+					"name": "pages/order/buy-status/ndex",
+					"pathName": "pages/order/buy-status/index",
 					"query": "",
 					"scene": null
 				},

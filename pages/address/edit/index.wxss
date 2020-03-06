@@ -19,7 +19,7 @@ page {
   color: #cc6666;
 }
 .address-operate button.save {
-  background-color: #00cccc;
+  background-color: #01c2c3;
   color: white;
 }
 .area-select {

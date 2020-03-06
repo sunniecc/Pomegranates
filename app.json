@@ -15,7 +15,8 @@
     "pages/userInfo/account/index",
     "pages/userInfo/account/detail/index",
     "pages/userInfo/credit/index",
-    "pages/userInfo/message/index"
+    "pages/userInfo/message/index",
+    "pages/order/buy-status/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -70,6 +71,7 @@
     "van-col": "@vant/weapp/col",
     "van-field": "@vant/weapp/field",
     "van-overlay": "@vant/weapp/overlay",
-    "van-dialog": "@vant/weapp/dialog"
+    "van-dialog": "@vant/weapp/dialog",
+    "van-toast": "@vant/weapp/toast"
   }
 }

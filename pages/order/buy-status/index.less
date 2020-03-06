@@ -1,0 +1,33 @@
+.buy-status-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .icon {
+        padding: 50rpx;
+        margin: 0 auto;
+    }
+    .text-status {
+        font-size: x-large;
+        color: #01c2c3;
+    }
+    .buy-status-button {
+        margin: 60rpx auto;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .btn {
+            border-radius: 0;
+            width: 43%;
+            &.order {
+                color: #01c2c3;
+                border: solid 3prx #01c2c3;
+                background: white;
+            }
+            &.home {
+                color: white;
+                background-color: #01c2c3;
+            }
+        }
+    }
+}

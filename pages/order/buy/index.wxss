@@ -42,7 +42,7 @@
   font-weight: 200;
 }
 .order-bug-container .bug-agree .tip {
-  color: #00cccc;
+  color: #01c2c3;
 }
 .order-bug-container .bug-fix-bottom {
   z-index: 100;
@@ -67,7 +67,7 @@
   border-radius: 0;
   width: 100%;
   height: 70rpx;
-  background-color: #00cccc;
+  background-color: #01c2c3;
   color: white;
   font-size: large;
   font-size: bold;

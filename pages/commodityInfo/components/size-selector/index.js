@@ -13,6 +13,7 @@ Component({
    * 组件的初始数据
    */
   data: {
+    showBuyButton: false,
     sizeList: [
       {
         size: 'XS',
@@ -70,6 +71,9 @@ Component({
       this.triggerEvent('select', {
         size: this.data.sizeList[index].size
       })
+      this.setData({
+        showBuyButton: true
+      })
     }
   },
   attached () {
@@ -77,7 +81,8 @@ Component({
     for (let index in this.data.sizeList) {
       if (this.data.sizeList[index].size === size) {
         this.setData({
-          ['sizeList[' + index + '].selected']: true
+          ['sizeList[' + index + '].selected']: true,
+          showBuyButton: true
         })
         return
       }
