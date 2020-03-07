@@ -28,6 +28,6 @@
   <c-divider></c-divider>
   <view class="bug-fix-bottom">
     <view class="bottom-price">实付款：￥2267</view>
-    <view class="button"><button>提交订单</button></view>
+    <view class="button" bindtap="createOrder"><button>提交订单</button></view>
   </view>
 </view>

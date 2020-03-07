@@ -1,6 +1,5 @@
 // pages/commodityInfo/index.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -9,11 +8,27 @@ Page({
     commodityPrice: 299,
     commodityPettern: [
       {
-
       }
     ],
     showSizeSelector: false,
-    selectedSize: '请选择尺'
+    selectedSize: '请选择尺',
+    relativeCommodityList: [
+      {
+        image: 'http://q6g5jrj9e.bkt.clouddn.com/dress7.jpeg',
+        title: 'SENCE LA 卫衣夹克外套 蓝色',
+        price: '399'
+      },
+      {
+        image: 'http://q6g5jrj9e.bkt.clouddn.com/dress7.jpeg',
+        title: 'SENCE LA 卫衣夹克外套 紫色',
+        price: '499'
+      },
+      {
+        image: 'http://q6g5jrj9e.bkt.clouddn.com/dress7.jpeg',
+        title: 'SENCE LA 卫衣夹克外套 粉色',
+        price: '599'
+      }
+    ] 
   },
   /**
    * 生命周期函数--监听页面加载
@@ -99,6 +114,16 @@ Page({
   chooseSize (e) {
     this.setData({
       selectedSize: `${e.detail.size}`
+    })
+  },
+  gotoCommodityInfo () {
+    wx.navigateTo({
+      url: './index',
+    })
+  },
+  addToCart () {
+    wx.switchTab({
+      url: '../cart/index',
     })
   }
 })

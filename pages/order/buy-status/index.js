@@ -1,4 +1,4 @@
-// pages/order/buy/index.js
+// pages/order/buy-status/index.js
 Page({
 
   /**
@@ -63,14 +63,14 @@ Page({
   onShareAppMessage: function () {
 
   },
-  gotoAddressList () {
+  gotoOrder () {
     wx.navigateTo({
-      url: '../../address/index',
+      url: '../detail/index',
     })
   },
-  createOrder () {
-    wx.navigateTo({
-      url: '../buy-status/index',
+  gotoHome () {
+    wx.switchTab({
+      url: '../../index/index',
     })
   }
 })

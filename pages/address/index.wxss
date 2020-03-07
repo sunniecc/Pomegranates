@@ -42,7 +42,7 @@ page {
 .address-list-container .fix-bottom button {
   width: 90%;
   border-radius: 5rpx;
-  background-color: #00cccc;
+  background-color: #01c2c3;
   color: white;
   font-weight: bold;
 }

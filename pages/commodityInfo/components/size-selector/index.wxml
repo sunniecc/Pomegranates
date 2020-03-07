@@ -18,7 +18,7 @@
             </view>
         </view>
     </view>
-    <view class="bug">
+    <view class="bug" wx:if="{{ showBuyButton }}">
         <button bindtap="buy">￥2399立即购买</button>
     </view>
 </view>

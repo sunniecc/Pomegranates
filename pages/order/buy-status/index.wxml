@@ -1,0 +1,11 @@
+<!--pages/order/buy-status/index.wxml-->
+<view class="buy-status-container">
+    <view class="icon">
+        <van-icon name="passed" size="200rpx" color="#01c2c3"/>
+    </view>
+    <view class="text-status">支付成功</view>
+    <view class="buy-status-button">
+        <button class="btn order" bindtap="gotoOrder">查看订单</button>
+        <button class="btn home" bindtap="gotoHome">继续逛</button>
+    </view>
+</view>

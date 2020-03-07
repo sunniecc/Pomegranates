@@ -19,7 +19,7 @@
   border-radius: 0;
   width: 40%;
   height: 70rpx;
-  background-color: #00cccc;
+  background-color: #01c2c3;
   color: white;
   font-size: large;
   font-size: bold;
@@ -81,7 +81,7 @@
   padding: 20rpx 40rpx;
 }
 .commodity-info-container .commodity-relative .right {
-  color: #00cccc;
+  color: #01c2c3;
   float: right;
 }
 .commodity-info-container .commodity-relative .relative-grid {
